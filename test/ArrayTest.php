@@ -3,23 +3,23 @@
 class ArrayTest extends \PHPUnit\Framework\TestCase
 {
 
-//    /**
-//     * $var = []
-//     */
-//    public function test_var()
-//    {
-//        $var = [];
-//        $this->assertFalse($var[0]);
-//    }
-//
-//    /**
-//     * $var = []
-//     */
-//    public function test_var2()
-//    {
-//        $var = [];
-//        $this->assertFalse($var['hoge']);
-//    }
+    /**
+     * $var = []
+     */
+    public function test_var()
+    {
+        $var = [];
+        $this->assertFalse($var[0]);
+    }
+
+    /**
+     * $var = []
+     */
+    public function test_var2()
+    {
+        $var = [];
+        $this->assertFalse($var['hoge']);
+    }
 
     /**
      * $var = []
@@ -57,22 +57,22 @@ class ArrayTest extends \PHPUnit\Framework\TestCase
         $this->assertFalse(isset($var['hoge']));
     }
 
-//    /**
-//     * $var = []
-//     */
-//    public function test_is_null()
-//    {
-//        $var = [];
-//        $this->assertFalse(is_null($var[0]));
-//    }
-//
-//    /**
-//     * $var = []
-//     */
-//    public function test_is_null2()
-//    {
-//        $var = [];
-//        $this->assertFalse(is_null($var['hoge']));
-//    }
+    /**
+     * $var = []
+     */
+    public function test_is_null()
+    {
+        $var = [];
+        $this->assertFalse(is_null($var[0]));
+    }
+
+    /**
+     * $var = []
+     */
+    public function test_is_null2()
+    {
+        $var = [];
+        $this->assertFalse(is_null($var['hoge']));
+    }
 
 }
