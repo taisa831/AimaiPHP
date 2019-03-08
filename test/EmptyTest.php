@@ -116,7 +116,7 @@ class EmptyTest extends \PHPUnit\Framework\TestCase
     public function test_empty4_1()
     {
         $var = '0';
-        $this->assertFlase(!empty($var));
+        $this->assertFalse(!empty($var));
     }
 
     /**
